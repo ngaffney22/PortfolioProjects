@@ -14,6 +14,7 @@ data into manageable categories for end user utilization.
 * [Portfolio Projects](#Portfolio-Projects)
   * [Covid Data Exploration](#Covid-Data-Exploration)
   * [Movie Data Correlation](#Movie-Data-Correlation)
+  * [Stock Market Web Scraper](#Stock-Market-Web-Scraper)
 * [Certificates](#Certificates)
 * [Contacts](#Contacts)
 
@@ -34,6 +35,12 @@ My first hypothesis for this data was that there would be a high correlation bet
 **Skills:** data wrangling, data cleaning, data analysis, data visualization, hypothesis testing, statistical analysis, regression modeling. <br>
 **Technology:** Python, Pandas, Numpy, Seaborn, Matplotlib. <br>
 **Results:**  The larger of the two heatmaps I produced showed a stong correlation of .74 between the budget of the film and the gross money earned from the film. This supports my first hypothesis which stated there would be a high corrleation between these two variables. However, this same heatmap also countered the second hypothesis as it shows a very weak correlation between company and the gross money earned from the films. A linear regression model could also work for this and I may do that in the future.
+### Stock Market Web Scraper
+**Code:** [Stock-Web-Scraper.ipynb](https://github.com/ngaffney22/PortfolioProjects/blob/main/Stock-Web-Scraper.ipynb) <br>
+**Description:** This project focuses on the gathering and wrangling of data from the internet. I used yahoo finance, a website commonly used for monitoring the the up's and downs of the stock market. I wanted to create a program to make it easier for a user to keep track of specific metrics in regards to specific stocks they might have investments in. So this program will take in a list of stock symbols and then outputs all of the related data for each on into a csv file. <br>
+**Skills:** data wrangling, web scraping, API requests, list & dictionary comprehention, defined functions. <br>
+**Technology:** Python, BeautifulSoup, requests, API, HTML. <br>
+**Results:** The main result from this project is a functioning program that will produce a csv file of any desired stocks. Once the program runs the csv file has the most up to date data on those particular stocks. If I wanted to take this a step further I could add a date/time section to the file and append to the csv multiple times over the course of at least a week. That would give me a large amount of data and allow for additional analysis such as time series analysis (looking at the stocks change over a period of time).
 ## Certifications
 The Certifiactions I currently have are listed bellow in chronological order
 * AWS Certified Cloud Practitioner (Feb 2022)
